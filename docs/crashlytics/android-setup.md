@@ -9,6 +9,10 @@ description: Additional Android steps for Crashlytics integration
 
 ## Additional Installation Steps
 
+Please set "crashlytics_debug_enabled": true in your firebase.json for enable crashlytics when your app run in emulator
+
+### Enable debug for android - emulator
+
 ### Add Fabric Gradle Tools
 
 These steps are required, if you do not add these your app will most likely crash at startup with the following Error: _"The Crashlytics build ID is missing. This occurs when Crashlytics tooling is absent from your app's build configuration. Please review Crashlytics onboarding instructions and ensure you have a valid Crashlytics account."_
